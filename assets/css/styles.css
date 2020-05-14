@@ -1,4 +1,5 @@
-.btn:focus, .btn-shorten:focus {
+.btn:focus, 
+.btn-shorten:focus {
   outline: 0;
 }
 
@@ -15,7 +16,7 @@ body {
 }
 
 .btn-shorten:focus {
-  color: #ffffff;
+  color: #fff;
   background-color: #f89406;
   border: none;
 }
@@ -85,7 +86,7 @@ body {
 }
 
 @media (min-width: 992px) {
-	.main-container {
-	width: 700px;
-	}
+  .main-container {
+    width: 700px;
+  }
 }
