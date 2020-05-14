@@ -1,11 +1,11 @@
-.btn:focus, .btn-shorten:focus{
-  outline: 0 !important;
+.btn:focus, .btn-shorten:focus {
+  outline: 0;
 }
 
 html,
 body {
   height: 100%;
-  background-color: #4791D2;
+  background-color: #4791d2;
 }
 
 body {
@@ -14,9 +14,9 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-.btn-shorten {
+.btn-shorten:focus {
   color: #ffffff;
-  background-color: #F89406;
+  background-color: #f89406;
   border: none;
 }
 
@@ -24,8 +24,8 @@ body {
 .btn-shorten:focus,
 .btn-shorten:active,
 .btn-shorten.active {
-  color: #ffffff;
-  background-color: #FA8900;
+  color: #fff;
+  background-color: #fa8900;
   border: none;
 }
 
@@ -60,7 +60,7 @@ body {
 }
 
 .glyphicon-world {
-  font-size: 2em
+  font-size: 2em;
 }
 
 .inner h1 {
@@ -72,8 +72,8 @@ body {
   padding-top: 15px;
 }
 
-#link a{
-  color: #F89406;
+#link a {
+  color: #f89406;
   font-size: 1.5em;
   margin-right: 20px;
 }
@@ -84,8 +84,4 @@ body {
   }
 }
 
-@media (min-width: 992px) {
-  .main-container {
-    width: 700px;
-  }
-}
+@media (min-width: 992px) { .main-container { width: 700px; } }
