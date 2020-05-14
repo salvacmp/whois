@@ -26,5 +26,6 @@ Resource: <https://whois.project.dsgroupmedia.com>
 > Tar.gz
 
     wget https://github.com/dsmgcom/whois/archive/whois-v1.0.tar.gz
+
 >For Windows
 	><https://github.com/dsmgcom/whois/archive/whois-v1.0.zip>
