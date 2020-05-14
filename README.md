@@ -1,4 +1,4 @@
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/936a1221f4a042e7abfa2f5114fb0560)](https://www.codacy.com/manual/dsmgcom/whois?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=dsmgcom/whois&amp;utm_campaign=Badge_Grade)[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)[![GitHub release](https://img.shields.io/github/release/Naereen/StrapDown.js.svg)](https://GitHub.com/Naereen/StrapDown.js/releases/)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/936a1221f4a042e7abfa2f5114fb0560)](https://www.codacy.com/manual/dsmgcom/whois?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=dsmgcom/whois&amp;utm_campaign=Badge_Grade)[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 
 # PHP Whois Checker
 
