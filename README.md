@@ -4,7 +4,6 @@
 
 DS Media Group Developement Team PHP Whois Checker
 
-
 ## Requirement
 
 > php 7.3
