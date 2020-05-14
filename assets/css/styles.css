@@ -84,4 +84,10 @@ body {
   }
 }
 
-@media (min-width: 992px) { .main-container { width: 700px; } }
+@media (min-width: 992px) { 
+	.main-container { 
+	width: 700px; 
+	} 
+}
+/** ↑
+ * End of CSS */
