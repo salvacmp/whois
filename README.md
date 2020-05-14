@@ -28,4 +28,4 @@ Resource: <https://whois.project.dsgroupmedia.com>
     wget https://github.com/dsmgcom/whois/archive/whois-v1.0.tar.gz
 
 >For Windows
-	><https://github.com/dsmgcom/whois/archive/whois-v1.0.zip>
+	<https://github.com/dsmgcom/whois/archive/whois-v1.0.zip>
