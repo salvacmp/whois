@@ -2,11 +2,16 @@
 
 # PHP Whois Checker
 
-DS Media Group Developement Team PHP Whois Checker
+DS Media Group Developement Team PHP Whois Checker 
+Resource: <https://whois.project.dsgroupmedia.com>
 
 ## Requirement
 
 > php 7.3
+
+## Demo
+
+<https://dsmg.my.id/whois>
 
 ## Clone to your system
 
