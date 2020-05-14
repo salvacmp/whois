@@ -9,7 +9,8 @@ if($domain) {
   elseif(ValidateDomain($domain)) {
     $result = LookupDomain($domain);
   }
-  else die("Invalid Input!");
+  else return;
+  echo "Invalid Input!";
   echo "<pre>\n" . $result . "\n</pre>\n";
 }
 ?>
