@@ -1,1 +1,1 @@
-# whois-v3.0
+# whois-v1.0
