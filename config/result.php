@@ -11,7 +11,7 @@ if($domain) {
     $result = LookupDomain($domain);
   }
   else return;
-  echo "Invalid Input!";
+  print_r("Invalid Input!");
   echo "<pre>\n" . $result . "\n</pre>\n";
 }
 ?>
