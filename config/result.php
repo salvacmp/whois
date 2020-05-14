@@ -1,4 +1,5 @@
 <?php
+$error="Invalid Input!";
 if($domain) {
   $domain = trim($domain);
   if(substr(strtolower($domain), 0, 7) == "http://") $domain = substr($domain, 7);
@@ -10,7 +11,7 @@ if($domain) {
     $result = LookupDomain($domain);
   }
   else return;
-  echo "Invalid Input!";
+  echo $error;
   echo "<pre>\n" . $result . "\n</pre>\n";
 }
 ?>
