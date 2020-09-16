@@ -10,7 +10,7 @@
               <h4>Free Whois Service For All</h4>
               <div class="row">
             <div class="col-lg-12">
-          <form action="<?=$_SERVER['PHP_SELF'];?>">
+          <form action="">
         <div class="input-group input-group-lg">
       <input type="text" class="form-control"  placeholder="Search for domain or IP..." name="domain" id="domain" value="<?=$domain;?>"> 
     <span class="input-group-btn">

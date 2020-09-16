@@ -7,11 +7,11 @@ if($domain) {
   if(ValidateIP($domain)) {
     $result = LookupIP($domain);
   }
-  elseif(ValidateDomain($domain)) {
+  else if(ValidateDomain($domain)) {
     $result = LookupDomain($domain);
   }
   else return;
-  print_r("Invalid Input!");
+  //print_r("Invalid Input!");
   echo "<pre>\n" . $result . "\n</pre>\n";
 }
 ?>
