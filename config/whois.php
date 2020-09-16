@@ -269,9 +269,9 @@ if (isset($_GET['domain'])) {
 
   function ValidateDomain($domain)
   {
-    if (!preg_match("/^([-a-z0-9]{2,100})\.([a-z\.]{2,8})$/i", $domain)) {
+    /*if (!preg_match("/^([-a-z0-9]{2,100})\.([a-z\.]{2,8})$/i", $domain)) {
       return false;
-    }
+    }*/
     return $domain;
   }
 
