@@ -11,7 +11,7 @@ Information : Edit This For Add Domain For Whois
  *************************************************************************/
 if (isset($_GET['domain'])) {
   $domain = $_GET['domain'];
-
+error_reporting(0);
   // For the full list of TLDs/Whois servers see http://www.iana.org/domains/root/db/ and http://www.whois365.com/en/listtld/
   $whoisservers = array(
     "ac" => "whois.nic.ac", // Ascension Island
@@ -212,7 +212,7 @@ if (isset($_GET['domain'])) {
     $tld = strtolower(array_pop($domain_parts));
     $whoisserver = $whoisservers[$tld];
     if (!$whoisserver) {
-      return "Error: Domain $domain  Not Found In Our Database";
+      return "Error: Domain <b> $tld </b> Not Supported";
     }
     $result = QueryWhoisServer($whoisserver, $domain);
     if (!$result) {
@@ -251,28 +251,6 @@ if (isset($_GET['domain'])) {
       $res .= "\n\n-------------\nLookup results for " . $ip . " from " . $whoisserver . " server:\n\n" . $result;
     }
     return $res;
-  }
-
-  function ValidateIP($ip)
-  {
-    $ipnums = explode(".", $ip);
-    if (count($ipnums) != 4) {
-      return false;
-    }
-    foreach ($ipnums as $ipnum) {
-      if (!is_numeric($ipnum) || ($ipnum > 255)) {
-        return false;
-      }
-    }
-    return $ip;
-  }
-
-  function ValidateDomain($domain)
-  {
-    /*if (!preg_match("/^([-a-z0-9]{2,100})\.([a-z\.]{2,8})$/i", $domain)) {
-      return false;
-    }*/
-    return $domain;
   }
 
   function QueryWhoisServer($whoisserver, $domain)
